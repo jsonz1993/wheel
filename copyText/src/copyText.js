@@ -83,7 +83,7 @@ export default class CopyText {
         } catch(e) {
             succeeded = fale;
         }
-        this.handleResult(succeeded);
+        this.handleResult(succeeded); // 事件回调处理
     }
 
     // 回调
