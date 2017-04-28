@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form id="form">
+    <div>
+        <label for="email">邮箱验证</label>
+        <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+    </div>
+    <div>
+        <label for="phone">phone验证</label>
+        <input type="text" name="phone" id="phone" class="form-control" placeholder="phone">
+    </div>
+    <button type="submit">提交</button>
+</form>
+<button id="btn">按钮</button>
+
+
+
+<script src="validator1.js"></script>
+<script src="app.js"></script>
+<script>
+    let a = new App({
+      el: 'form',
+      fields: [
+        {
+          name: 'email', //name 字段
+          display:"你输入的不是合法邮箱|太长|太短",
+          rules: 'email|maxLength(12)|minLength(10)' // 验证条件
+        }, {
+          name:'phone',
+          display: '你输入错误了',
+          rules: 'phone|maxLength(12)'
+        }
+      ],
+      isLazy: true,
+      callback(t) {
+        console.log(t);
+      },
+      callbackItem(t) {
+        console.log(t);
+      },
+      type: 'blur'
+    });
+
+    document.getElementById('btn').addEventListener('click', function () {
+      a.validate().then(e=> {console.log(e)})
+    })
+</script>
+</body>
+</html>
