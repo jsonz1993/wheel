@@ -1,15 +1,3 @@
----
-title: 工作日常 吸顶效果
-tags:
-  - github
-  - work
-  - JavaScript
-  - css
-categories:
-  - technology
-date: 2017-05-29 13:09:59
----
-
 # 概述
 
 吸顶 最常见的就是我们平时网站浏览的时候，下滑到某个程度之后 导航栏就固定到顶部而不随页面滚动而滚动（简单而言就是 fixed 布局 ).
@@ -131,7 +119,8 @@ fixedTop.init('#div');
 # 后记
 
 很简单的小需求， 是在工作中看到小伙伴的脚本后改进的。 主要是之前没有想到要生成一个占位dom来防止后面的抖动
+[项目源码链接](https://github.com/jsonz1993/wheel/tree/master/fixedTop)
 
-然后有一个css样式可以直接达到这个效果，但是兼容性不乐观， 对布局也有所要求，有兴趣的可以去了解一下。
-
-附上链接 []
+然后有一个css样式可以直接达到这个效果，但是兼容性不乐观， 对布局也有所要求，有兴趣的可以去了解一下.
+[sticky demo](https://mdn.mozillademos.org/en-US/docs/Web/CSS/position$samples/Sticky_positioning?revision=1248065)。
+[sticky caniuse](http://caniuse.com/#search=sticky)
