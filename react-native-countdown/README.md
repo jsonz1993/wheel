@@ -56,4 +56,4 @@ import {CountDownText} from 'react-native-sk-countdown';
 
 大量借鉴 [https://github.com/shigebeyond/react-native-sk-countdown](https://github.com/shigebeyond/react-native-sk-countdown) 项目
 
-其实说白了只是在原来代码上优化改进，并且兼容新版的React-Native。 开发与使用是在 `.44` 版本
+其实说白了只是在原来代码上优化改进，主要兼容新版的React-Native 和用 `ES6`语法改写。 开发与使用是在 `.44` 版本
