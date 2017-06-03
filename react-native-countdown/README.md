@@ -1,3 +1,5 @@
+## [blog-README](https://jsonz1993.github.io/2017/06/react-native-countdown-RN%E7%9A%84%E5%80%92%E8%AE%A1%E6%97%B6%E7%BB%84%E4%BB%B6/)
+
 ## 用法
 
 ```JavaScript
@@ -26,7 +28,6 @@ import {CountDownText} from 'react-native-sk-countdown';
     endText='' // 结束的文本
     intervalText={(date, hour, min, sec) => date + '天' + hour + '时' + min + '分' + sec} // 定时的文本回调
   />
-
 ```
 
 ![demo.gif](./demo.gif)
