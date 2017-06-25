@@ -1,0 +1,31 @@
+{
+  "name": "Dogs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.0.2",
+    "mockjs": "^1.0.1-beta3",
+    "query-string": "^4.3.4",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-audio": "^3.2.2",
+    "react-native-image-picker": "^0.26.3",
+    "react-native-progress": "^3.2.1",
+    "react-native-vector-icons": "^4.1.1",
+    "react-native-video": "^1.0.0",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

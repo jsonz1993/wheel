@@ -1,0 +1,29 @@
+{
+  "name": "dogserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cloudinary": "^1.9.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "koa-session": "^5.1.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.10.4",
+    "qiniu": "^6.1.13",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "sha1": "^1.1.1",
+    "speakeasy": "^2.0.0",
+    "uuid": "^3.0.1",
+    "xss": "^0.3.3"
+  }
+}
