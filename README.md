@@ -2,6 +2,8 @@
 
 平时工作 or 无聊写的小轮子
 
+#### postMessage 简单的封装了 系统自带的postMessage 添加类型监听
+
 #### react-native-countdown ReactNative的倒计时组件
 - 造这个轮子的原因是学习rn的时候，视频推荐额一个组件，但是这个组件已经停止维护 所以只能自己造一个
 - 支持日期与秒数的倒计时
