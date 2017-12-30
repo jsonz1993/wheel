@@ -2,6 +2,8 @@
 
 平时工作 or 无聊写的小轮子
 
+#### Promise 简单的照着别人的代码敲一遍， 主要为了理解原理 做技术分享
+
 #### postMessage 简单的封装了 系统自带的postMessage 添加类型监听
 
 #### react-native-countdown ReactNative的倒计时组件

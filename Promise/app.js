@@ -1,4 +1,4 @@
-
+// https://github.com/calvinmetcalf/lie
 const PENDING = ['PENDING']
 const RESOLVED = ['RESOLVED']
 const REJECTED = ['REJECTED']
