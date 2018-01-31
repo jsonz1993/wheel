@@ -54,7 +54,7 @@ export default class CountDown {
       this.timeLeft = Math.floor(CountDown.getSeconds(this.endTime) - CountDown.getSeconds(this.startTime));
     }
 
-    this.refreshTime(true);
+//    this.refreshTime(true);
   }
 
   // 周期启动更新时间
