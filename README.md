@@ -2,6 +2,11 @@
 
 平时工作 or 无聊写的小轮子
 
+### auto_test
+  - auto_test 利用 puppeteer 来进行功能测试 将测试结果发送到后台记录
+  - auto_test_backend 存取测试结果，方便查看
+  - [链接](https://jsonz1993.github.io/2018/04/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%E6%B5%81%E7%A8%8B%E6%96%B9%E6%A1%88/)
+
 #### qqZone puppeteer自动化删除留言板与说说程序
 
 #### min-compiler 简单的用js实现一个编译器，主要了解编译器的原理
@@ -31,7 +36,6 @@
 #### validator 小型表单验证插件
 - 移动端简单的验证插件
 - 支持自己配置验证项 支持多重验证
-
 
 
 #### cookie 封装了一些常用的api
