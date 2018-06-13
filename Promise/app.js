@@ -41,7 +41,7 @@ class Promise {
 
   // catch 语法糖
   catch(onRejected) {
-    this.then(null, onRejected)
+    return this.then(null, onRejected)
   }
 
   static resolve(value) {
