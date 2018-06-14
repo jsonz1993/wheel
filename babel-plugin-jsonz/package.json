@@ -1,0 +1,17 @@
+{
+  "name": "test_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-types": "^6.26.0"
+  },
+  "scripts": {
+    "build": "babel src/ -d build/"
+  },
+  "author": "",
+  "license": "ISC"
+}

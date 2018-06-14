@@ -1,0 +1,3 @@
+{
+  "plugins": ["./babel-plugins-hello-world.js", "./babel-plugins-app.js"]
+}
