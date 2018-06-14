@@ -2,6 +2,10 @@
 
 平时工作 or 无聊写的小轮子
 
+### babel-plugin-jsonz
+  - 学习babel插件编写
+  - next 项目一个小的插件
+
 ### auto_test
   - auto_test 利用 puppeteer 来进行功能测试 将测试结果发送到后台记录
   - auto_test_backend 存取测试结果，方便查看
