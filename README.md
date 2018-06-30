@@ -2,6 +2,11 @@
 
 平时工作 or 无聊写的小轮子
 
+### print-partial
+  - 浏览器局部打印
+  - 无依赖js写，可以参照这个思路做自己的需求
+  - [打印其他相关介绍](https://jsonz1993.github.io/2018/06/window-print%E2%80%94%E2%80%94%E5%85%B3%E4%BA%8E%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%8D%B0/)
+
 ### babel-plugin-jsonz
   - 学习babel插件编写
   - next 项目一个小的插件
