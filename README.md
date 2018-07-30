@@ -5,7 +5,7 @@
 ### video-to-chat
   - 视频转成字符串展示
   - video => canvas => image => char => canvas
-  - [在线demo](//jsonz1993.github.io/demo/video2char_img/)
+  - [在线demo](//jsonz1993.github.io/demo/video2char/index.html)
   - [相关介绍](//jsonz1993.github.io/2018/07/video-to-chat/)
   - [源码](https://github.com/jsonz1993/wheel/tree/master/video2char)
 
