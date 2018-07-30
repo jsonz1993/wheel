@@ -2,6 +2,14 @@
 
 平时工作 or 无聊写的小轮子
 
+### video-to-chat
+  - 视频转成字符串展示
+  - video => canvas => image => char => canvas
+  - [在线demo](//jsonz1993.github.io/demo/video2char_img/)
+  - [相关介绍](//jsonz1993.github.io/2018/07/video-to-chat/)
+  - [源码](https://github.com/jsonz1993/wheel/tree/master/video2char)
+
+
 ### print-partial
   - 浏览器局部打印
   - 无依赖js写，可以参照这个思路做自己的需求
