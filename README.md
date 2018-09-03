@@ -2,6 +2,11 @@
 
 平时工作 or 无聊写的小轮子
 
+### fq-demo
+  - 函数式编程学习用到的demo
+  - rxJs, ramdaJs
+  - [文章链接](https://jsonz1993.github.io/2018/08/fp/)
+
 ### video-to-chat
   - 视频转成字符串展示
   - video => canvas => image => char => canvas
