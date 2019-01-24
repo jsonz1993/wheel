@@ -2,6 +2,11 @@
 
 平时工作 or 无聊写的小轮子
 
+### ast-webpack-alias
+ - 为了解决项目上太多alias的问题
+ - 用编译器生成ast，再替换掉部分引入的路径，重新生成代码，格式化，写入本地
+ - [文章链接](https://jsonz1993.github.io/2019/01/AST-practice/)
+
 ### fq-demo
   - 函数式编程学习用到的demo
   - rxJs, ramdaJs
